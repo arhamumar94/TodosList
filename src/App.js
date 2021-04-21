@@ -57,7 +57,7 @@ function App() {
   return (
    <>
    <Router>
-   
+   <Header title="My Todo List" searchBar={true}/>
    <Switch>
   
           <Route exact path="/" render={()=>{
