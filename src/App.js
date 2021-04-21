@@ -59,7 +59,7 @@ function App() {
    <Router>
    <Header title="My Todo List" searchBar={true}/>
    <Switch>
-         
+  
           <Route exact path="/" render={()=>{
             return (
               <>
@@ -70,7 +70,7 @@ function App() {
           }}>
           
           </Route>
-          <Route exact path="/about">
+          <Route excat path="/about">
             <About />
           </Route>
      </Switch>
