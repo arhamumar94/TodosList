@@ -70,7 +70,7 @@ function App() {
           }}>
           
           </Route>
-          <Route  path="/about">
+          <Route exact path="/about">
             <About />
           </Route>
      </Switch>
